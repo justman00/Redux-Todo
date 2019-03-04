@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import { addTodo, deleteTodo } from "../actions";
 
+// did mvp
 function App(props) {
   const [value, setValue] = useState("");
 
